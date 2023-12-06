@@ -1,0 +1,20 @@
+{
+    "name": "vendor/iscale-exam",
+    "description": "Iscale Technical Assesment Exam",
+    "type": "exam",
+    "authors": [
+        {
+            "name": "Rafael Guerra",
+            "email": "rafael.iso.guerra@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/Controllers/",
+            "Models\\": "src/Models/",
+            "Views\\": "src/Views/",
+            "Repositories\\": "src/Repositories/"
+        }
+    }
+}
